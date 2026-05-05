@@ -15,7 +15,7 @@ body::before {
 
   background:
     linear-gradient(rgba(2, 6, 23, 0.25), rgba(2, 6, 23, 0.55)),
-    url("imagens-fundo.png");
+    url("imagens/imagens-fundo.png");
 
   background-size: cover;
   background-position: center;
