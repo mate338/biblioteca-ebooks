@@ -70,163 +70,107 @@ const ebooks = [
     descricao: "A dieta detox e um programa com cardápios compostos por alimentos que limpam o organismo.",   
   },
    {
-    titulo: "adicione seu ebook",
+    titulo: "trafego Online",
     preco: "R$ 14,90",
     imagem: "imagens/imagens-ebook11.jpg",
     link: "https://pay.hotmart.com/N105697899V",
     descricao: "Configurar sua presença on-line de negócios é uma grande conquista..",
   },
    {
+    titulo: "27 poderes de persuasao",
+    preco: "R$ 19,90",
+    imagem: "imagens/imagens-ebook12.jpg",
+    link: "https://pay.hotmart.com/V105702247W",
+    descricao: "estratégias iteligentes que vão ajudá-lo a se comunicar de forma mais eficaz.",
+  },
+   {
+    titulo: "Guia para Eliminar celulites",
+    preco: "R$ 14,90",
+    imagem: "imagens/imagens-ebook13.jpg",
+    link: "https://pay.hotmart.com/F105702677G",
+    descricao: "Guia prático com métodos naturais e exercícios para combater a celulite sem gastar muito.",
+  },
+   {
+    titulo: "a arte da negociaçao",
+    preco: "R$ 9,90",
+    imagem: "imagens/imagens-ebook14.jpg",
+    link: "https://pay.hotmart.com/U105702957K",
+    descricao: "Domine técnicas de persuasão e estratégias de comunicação para fechar grandes acordos.",
+  },
+   {
+    titulo: "100 maneiras de criar riqueza",
+    preco: "R$ 17,00",
+    imagem: "imagens/imagens-ebook15.jpg",
+    link: "https://pay.hotmart.com/I105703030K",
+    descricao: "Descubra passos práticos e hábitos financeiros para gerar e multiplicar sua riqueza.",
+  },
+   {
+    titulo: "Os 40 habitos secretos",
+    preco: "R$ 19,00",
+    imagem: "imagens/imagens-ebook16.jpg",
+    link: "https://pay.hotmart.com/J105703201C",
+    descricao: "Mude sua rotina financeira com práticas diárias para economizar, investir e viver sem dívidas.",
+  },
+   {
+    titulo: "como atrair clientes",
+    preco: "R$ 14,90",
+    imagem: "imagens/imagens-ebook17.jpg",
+    link: "https://pay.hotmart.com/X105703342T",
+    descricao: "Aprenda estratégias de marketing e vendas para atrair o público ideal para o seu negócio.",
+  },
+   {
+    titulo: "A arte natural da Seduçao",
+    preco: "R$ 17,00",
+    imagem: "imagens/imagens-ebook18.jpg",
+    link: "https://pay.hotmart.com/A105703461W",
+    descricao: "Descubra como desenvolver seu carisma e confiança de forma autêntica e espontânea.",
+  },
+   {
+    titulo: "Não leia este livro a nao ser que queira largar seu emprego",
+    preco: "R$ 19,90",
+    imagem: "imagens/imagens-ebook19.jpg",
+    link: "https://pay.hotmart.com/S105703698Y",
+    descricao: "Descubra como eliminar o trabalho desnecessário, terceirizar tarefas e automatizar seus ganhos.",
+  },
+   {
     titulo: "adicione seu ebook",
     preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
+    imagem: "imagens/imagens-ebook20.jpg",
     link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
     descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook.",
   },
    {
     titulo: "adicione seu ebook",
     preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
-    link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
-    descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook.",
-  },
-   {
-    titulo: "adicione seu ebook",
-    preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
-    link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
-    descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook.",
-  },
-   {
-    titulo: "adicione seu ebook",
-    preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
-    link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
-    descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook.",
-  },
-   {
-    titulo: "adicione seu ebook",
-    preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
-    link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
-    descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook.",
-  },
-   {
-    titulo: "adicione seu ebook",
-    preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
-    link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
-    descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook.",
-  },
-   {
-    titulo: "adicione seu ebook",
-    preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
-    link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
-    descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook.",
-  },
-   {
-    titulo: "adicione seu ebook",
-    preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
-    link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
-    descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook.",
-  },
-   {
-    titulo: "adicione seu ebook",
-    preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
-    link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
-    descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook.",
-  },
-   {
-    titulo: "adicione seu ebook",
-    preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
-    link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
-    descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook.",
-  },
-   {
-    titulo: "adicione seu ebook",
-    preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
+    imagem: "imagens/imagens-ebook21.jpg",
     link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
     descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook.",   
   },
    {
     titulo: "adicione seu ebook",
     preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
+    imagem: "imagens/imagens-ebook22.jpg",
     link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
     descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook."
   },
    {
     titulo: "adicione seu ebook",
     preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
+    imagem: "imagens/imagens-ebook23.jpg",
     link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
     descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook."
   },
    {
     titulo: "adicione seu ebook",
     preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
-    link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
-    descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook."
-  },
-   {
-    titulo: "adicione seu ebook",
-    preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
-    link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
-    descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook."
-  },
-   {
-    titulo: "adicione seu ebook",
-    preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
-    link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
-    descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook."    
-  },
-   {
-    titulo: "adicione seu ebook",
-    preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
-    link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
-    descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook."
-  },
-   {
-    titulo: "adicione seu ebook",
-    preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
-    link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
-    descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook."    
-  },
-   {
-    titulo: "adicione seu ebook",
-    preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
-    link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
-    descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook."
-  },
-   {
-    titulo: "adicione seu ebook",
-    preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
-    link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
-    descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook."
-  },
-   {
-    titulo: "adicione seu ebook",
-    preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook2.jpg",
+    imagem: "imagens/imagens-ebook24.jpg",
     link: "https://pay.hotmart.com/X105533423U?bid=1777900234587",
     descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook."
   },
   {
     titulo: "adicione seu ebook",
     preco: "R$ 00,00",
-    imagem: "imagens/imagens-ebook1.jpg",
+    imagem: "imagens/imagens-ebook25.jpg",
     link: "https://seu-checkout-aqui.com",
     descricao: "Uma breve descrição sobre o que a pessoa vai encontrar nesse ebook."
   }
@@ -287,3 +231,37 @@ function abrirModal(index) {
 document.getElementById("fecharModal").onclick = function () {
   document.getElementById("modal").style.display = "none";
 };
+
+const nomesCompra = [
+  "Roberto", "Ana", "Carlos", "Mariana", "João",
+  "Fernanda", "Lucas", "Bianca", "Rafael", "Juliana",
+  "Mateus", "Camila", "Bruno", "Larissa", "Pedro"
+];
+
+const ebooksCompra = [
+  "Biblioteca Completa",
+  "Em Meio ao Caos",
+  "Copywriting Persuasivo",
+  "Marketing Digital",
+  "Técnicas de Persuasão"
+];
+
+function mostrarNotificacaoCompra() {
+  const notificacao = document.getElementById("notificacaoCompra");
+
+  const nome = nomesCompra[Math.floor(Math.random() * nomesCompra.length)];
+  const ebook = ebooksCompra[Math.floor(Math.random() * ebooksCompra.length)];
+
+  notificacao.innerHTML = `
+    🛒 <strong>${nome}</strong> acabou de comprar <strong>${ebook}</strong>
+  `;
+
+  notificacao.classList.add("ativa");
+
+  setTimeout(() => {
+    notificacao.classList.remove("ativa");
+  }, 5000);
+}
+
+setTimeout(mostrarNotificacaoCompra, 3000);
+setInterval(mostrarNotificacaoCompra, 15000);

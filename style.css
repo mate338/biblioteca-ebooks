@@ -97,10 +97,9 @@ header p {
 /* GRID */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 220px));
-  gap: 25px;
-  padding: 35px 25px 80px;
-  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
 }
 
 /* CARDS */
@@ -287,4 +286,51 @@ button:hover {
   font-size: 28px;
   cursor: pointer;
   color: white;
+}
+
+.notificacao-compra {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  background: rgba(15, 23, 42, 0.92);
+  color: white;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 0, 204, 0.28);
+  box-shadow: 0 0 25px rgba(255, 0, 204, 0.22);
+  font-size: 14px;
+  z-index: 9999;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.4s ease;
+}
+
+.notificacao-compra.ativa {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.notificacao-compra strong {
+  color: #22c55e;
+}
+
+@media (max-width: 600px) {
+  .notificacao-compra {
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .card {
+    width: 100% !important;
+  }
 }
