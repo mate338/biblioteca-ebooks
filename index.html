@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dreamer Library</title>
+  <title>Dreamer Store</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,14 +13,35 @@
 
   <div id="notificacaoCompra" class="notificacao-compra"></div>
 
-  <!-- HEADER -->
-  <header>
-    <h1 id="titulo">
-      <span class="icone">📚</span>
-      <span id="texto-titulo"></span>
-    </h1>
 
-  </header>
+  <!-- HEADER -->
+<header>
+
+  <h1 id="titulo">
+    <span class="icone">📚</span>
+    <span id="texto-titulo"></span>
+  </h1>
+
+  <div class="top-bar">
+    <div class="busca-box">
+      <span class="icone-busca">🔍</span>
+      <input type="text" id="pesquisa" placeholder="Buscar ebook...">
+    </div>
+
+    <div class="contador-ebooks">
+  <span id="totalEbooks">0</span> ebooks disponíveis
+</div>
+
+    <select id="filtro">
+      <option value="todos">Todos</option>
+      <option value="marketing">Marketing</option>
+      <option value="persuasao">Persuasão</option>
+      <option value="saude">Saúde</option>
+      <option value="relacionamento">Relacionamento</option>
+    </select>
+  </div>
+
+</header>
 
   <!-- GRID DE EBOOKS -->
   <section class="grid" id="ebooks"></section>
