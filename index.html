@@ -22,7 +22,13 @@
     <span id="texto-titulo"></span>
   </h1>
 
-  <div class="top-bar">
+  <div class="categorias">
+  <button class="categoria-btn ativo" data-categoria="todos">Todos</button>
+  <button class="categoria-btn" data-categoria="ebooks">📚 Ebooks</button>
+  <button class="categoria-btn" data-categoria="fisicos">📦 Produtos Físicos</button>
+</div>
+
+<div class="top-bar">
     <div class="busca-box">
       <span class="icone-busca">🔍</span>
       <input type="text" id="pesquisa" placeholder="Buscar ebook...">
@@ -32,7 +38,7 @@
   <span id="totalEbooks">0</span> ebooks disponíveis
 </div>
 
-    <select id="filtro">
+ <select id="filtroCategoria">
       <option value="todos">Todos</option>
       <option value="marketing">Marketing</option>
       <option value="persuasao">Persuasão</option>
@@ -46,15 +52,56 @@
   <!-- GRID DE EBOOKS -->
   <section class="grid" id="ebooks"></section>
 
-  <!-- 💰 PARCERIA / WHATSAPP -->
-  <footer class="footer-parceria">
-    <h2>Quer divulgar seu ebook aqui?</h2>
-    <p>Entre em contato para parcerias e publicação de materiais digitais.</p>
+  <section class="carrossel-section">
 
-    <a href="https://wa.me/5591993303430" target="_blank" class="btn-whatsapp">
-      Falar no WhatsApp
-    </a>
-  </footer>
+  <h2 class="titulo-carrossel">
+    🔥 Mais procurados da semana
+  </h2>
+
+  <div class="carrossel-container">
+
+    <div class="carrossel" id="carrosselDestaque">
+
+      <div class="card-destaque">
+        <img src="imagens/imagens-ebook3.jpg">
+        <h3>TECNICAS PROIBIDAS DE PERSUASÃO</h3>
+      </div>
+
+      <div class="card-destaque">
+        <img src="imagens/imagens-ebook7.jpg">
+        <h3>DOMINANDO A IA</h3>
+      </div>
+
+      <div class="card-destaque">
+        <img src="imagens/imagens-ebook10.jpg">
+        <h3>DETOX DOS FAMOSOS</h3>
+      </div>
+
+      <div class="card-destaque">
+        <img src="imagens/imagens-ebook5.jpg">
+        <h3>FORMULA DA PEGAÇÃO</h3>
+      </div>
+
+      <div class="card-destaque">
+        <img src="imagens/imagens-ebook21.jpg">
+        <h3>A REGRA E NÃO TER REGRAS</h3>
+      </div>
+
+      <div class="card-destaque">
+        <img src="imagens/imagens-ebook22.jpg">
+        <h3>A CABEÇA DE STEVE JOBS</h3>
+      </div>
+
+      <div class="card-destaque">
+        <img src="imagens/imagens-ebook24.jpg">
+        <h3>COPYS PODEROSAS</h3>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
   
   <div id="modal" class="modal">
   <div class="modal-content">

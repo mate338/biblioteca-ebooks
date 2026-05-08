@@ -403,3 +403,95 @@ button:hover {
 header {
   position: relative;
 }
+
+.categorias {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 20px auto 30px;
+  padding: 0 15px;
+}
+
+.categoria-btn {
+  border: none;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.85);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(236, 72, 153, 0.25);
+  transition: 0.25s ease;
+}
+
+.categoria-btn:hover,
+.categoria-btn.ativo {
+  background: linear-gradient(135deg, #ec4899, #8b5cf6);
+  transform: translateY(-2px);
+}
+
+.carrossel-section {
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.titulo-carrossel {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  margin-bottom: 25px;
+  text-shadow: 0 0 20px #ff00cc;
+}
+
+.carrossel-container {
+  overflow-x: hidden;
+  scroll-behavior: auto;
+  padding-bottom: 15px;
+}
+
+.carrossel-container::-webkit-scrollbar {
+  display: none;
+}
+
+.carrossel {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+}
+
+.card-destaque {
+  width: 220px;
+  min-width: 220px;
+
+  background: rgba(15, 23, 42, 0.85);
+
+  border-radius: 22px;
+  padding: 12px;
+
+  border: 1px solid rgba(255, 0, 200, 0.35);
+
+  box-shadow: 0 0 25px rgba(236, 72, 153, 0.25);
+
+  transition: 0.3s ease;
+}
+
+.card-destaque:hover {
+  transform: translateY(-8px) scale(1.03);
+}
+
+.card-destaque img {
+  width: 100%;
+  height: 300px;
+
+  object-fit: cover;
+
+  border-radius: 14px;
+}
+
+.card-destaque h3 {
+  color: white;
+  text-align: center;
+  margin-top: 12px;
+  font-size: 18px;
+}

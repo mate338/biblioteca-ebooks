@@ -5,6 +5,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook3.jpg",
     link: "https://pay.hotmart.com/A105695939G",
     descricao: "é um guia prático focado no uso de Programação Neurolinguística (PNL) e padrões de linguagem para direcionar e alterar os pensamentos e comportamentos das pessoas.",
+    categoria: "ebooks"
   },
    {
     titulo: "EM MEIO AO CAOS",
@@ -12,6 +13,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook2.jpg",
     link: "https://pay.hotmart.com/X105533423U",
     descricao: "aborda como manter a fé e encontrar força espiritual durante períodos de crises, tribulações e momentos em que a vida parece não fazer sentido.",
+    categoria: "ebooks"
   },
    {
     titulo: "VENDAS EM TEMPOS DE CRISE",
@@ -19,6 +21,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook4.jpg",
     link: "https://pay.hotmart.com/H105696075R",
     descricao: "é um manual estratégico voltado para profissionais de vendas que enfrentam períodos de retração econômica e incertezas no mercado..",
+    categoria: "ebooks"
   },
    {
     titulo: "FORMULA DA PEGAÇÃO",
@@ -26,6 +29,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook5.jpg",
     link: "https://pay.hotmart.com/Y105696248L",
     descricao: "O e-book A Fórmula da Pegação: Como Conquistar uma Mulher é um guia digital voltado para o público masculino que ensina técnicas de sedução, conquista e desenvolvimento pessoal.",
+    categoria: "ebooks"
   },
   {
     titulo: "TA NA HORA DO PAPA",
@@ -33,6 +37,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook6.jpg",
     link: "https://pay.hotmart.com/O105696347U",
     descricao: "Este ebook vc encontra as melhores receitas para seu bebe.",
+    categoria: "ebooks"
   },
    {
     titulo: "DOMINANDO A INTELIGENCIA ARTIFICIAL",
@@ -40,6 +45,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook7.jpg",
     link: "https://pay.hotmart.com/N105696428D",
     descricao: "Domine de forma definitiva suas inteligencias Artificiais.",
+    categoria: "ebooks"
   },
    {
     titulo: "O SEGREDO PARA DENTES MAIS BRANCOS",
@@ -47,6 +53,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook8.jpg",
     link: "https://pay.hotmart.com/T105696911X",
     descricao: "tecnicas usadas nos estados unidos agora revelada a vcs.",
+    categoria: "ebooks"
   },
    {
     titulo: "PACK 500 EBOOKS",
@@ -54,6 +61,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook1.jpg",
     link: "https://pay.cakto.com.br/346fjzg_865057",
     descricao: "Uma vasta coleçao de ebooks para uso ou revendas.",
+    categoria: "ebooks"
   },
    {
     titulo: "O MANTRA DA PERDA DE PESO",
@@ -61,6 +69,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook9.jpg",
     link: "https://pay.hotmart.com/J105697142H",
     descricao: "Este é o guia completo que fornece métodos fáceis, simples e executáveis ​​para aprimorar seu programa de exercícios e hábitos alimentares.",
+    categoria: "ebooks"
   },
    {
     titulo: "DETOX DOS FAMOSOS",
@@ -68,6 +77,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook10.jpg",
     link: "https://pay.hotmart.com/L105697651P",
     descricao: "A dieta detox e um programa com cardápios compostos por alimentos que limpam o organismo.",   
+    categoria: "ebooks"
   },
    {
     titulo: "COMO GERAR TRAFEGO ONLINE",
@@ -75,6 +85,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook11.jpg",
     link: "https://pay.hotmart.com/N105697899V",
     descricao: "Configurar sua presença on-line de negócios é uma grande conquista..",
+    categoria: "ebooks"
   },
    {
     titulo: "27 PODERES DE PERSUASÃO",
@@ -82,6 +93,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook12.jpg",
     link: "https://pay.hotmart.com/V105702247W",
     descricao: "estratégias iteligentes que vão ajudá-lo a se comunicar de forma mais eficaz.",
+    categoria: "ebooks"
   },
    {
     titulo: "GUIA PARA ELIMINAR CELULITES",
@@ -89,6 +101,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook13.jpg",
     link: "https://pay.hotmart.com/F105702677G",
     descricao: "Guia prático com métodos naturais e exercícios para combater a celulite sem gastar muito.",
+    categoria: "ebooks"
   },
    {
     titulo: "A ARTE DA NEGOCIAÇÃO",
@@ -96,6 +109,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook14.jpg",
     link: "https://pay.hotmart.com/U105702957K",
     descricao: "Domine técnicas de persuasão e estratégias de comunicação para fechar grandes acordos.",
+    categoria: "ebooks"
   },
    {
     titulo: "100 MANEIRAS DE CRIAR RIQUEZA",
@@ -103,6 +117,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook15.jpg",
     link: "https://pay.hotmart.com/I105703030K",
     descricao: "Descubra passos práticos e hábitos financeiros para gerar e multiplicar sua riqueza.",
+    categoria: "ebooks"
   },
    {
     titulo: "OS 40 HABITOS SECRETOS",
@@ -110,6 +125,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook16.jpg",
     link: "https://pay.hotmart.com/J105703201C",
     descricao: "Mude sua rotina financeira com práticas diárias para economizar, investir e viver sem dívidas.",
+    categoria: "ebooks"
   },
    {
     titulo: "COMO ATRAIR CLIENTES",
@@ -117,6 +133,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook17.jpg",
     link: "https://pay.hotmart.com/X105703342T",
     descricao: "Aprenda estratégias de marketing e vendas para atrair o público ideal para o seu negócio.",
+    categoria: "ebooks"
   },
    {
     titulo: "A ARTE NATURAL DA SEDUÇÃO",
@@ -124,6 +141,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook18.jpg",
     link: "https://pay.hotmart.com/A105703461W",
     descricao: "Descubra como desenvolver seu carisma e confiança de forma autêntica e espontânea.",
+    categoria: "ebooks"
   },
    {
     titulo: "NÃO LEIA ESTE LIVRO A NÃO SER QUE QUEIRA LARGAR SEU EMPREGO",
@@ -131,6 +149,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook19.jpg",
     link: "https://pay.hotmart.com/S105703698Y",
     descricao: "Descubra como eliminar o trabalho desnecessário, terceirizar tarefas e automatizar seus ganhos.",
+    categoria: "ebooks"
   },
    {
     titulo: "A BIBLIA DO MARKETING DIGITAL",
@@ -138,6 +157,7 @@ const ebooks = [
     imagem: "imagens/imagens-ebook20.jpg",
     link: "https://pay.hotmart.com/V105730854I",
     descricao: " Essencial para entender o ecossistema digital e planejar ações de sucesso online.",
+    categoria: "ebooks"
   },
    {
     titulo: "A REGRA E NÃO TER REGRAS",
@@ -145,34 +165,39 @@ const ebooks = [
     imagem: "imagens/imagens-ebook21.jpg",
     link: "https://pay.hotmart.com/P105731470L",
     descricao: "O livro explora a cultura de inovação da Netflix, focando em densidade de talento e sinceridade radical.",   
+    categoria: "ebooks"
   },
    {
     titulo: "A CABEÇA DE STEVE JOBS",
     preco: "R$ 14,90",
     imagem: "imagens/imagens-ebook22.jpg",
     link: "https://pay.hotmart.com/E105731770I",
-    descricao: "O livro de Leander Kahney desvenda a mente por trás da Apple, focando na obsessão de Jobs pelo design, inovação e perfeição."
+    descricao: "O livro de Leander Kahney desvenda a mente por trás da Apple, focando na obsessão de Jobs pelo design, inovação e perfeição.",
+    categoria: "ebooks"
   },
    {
     titulo: "COMO CONVENCER ALGUEM EM 90 SEGUNDOS",
     preco: "R$ 14,90",
     imagem: "imagens/imagens-ebook23.jpg",
     link: "https://pay.hotmart.com/X105732254J",
-    descricao: "O livro de Nicholas Boothman ensina a criar conexões instantâneas através da linguagem corporal e tom de voz."
+    descricao: "O livro de Nicholas Boothman ensina a criar conexões instantâneas através da linguagem corporal e tom de voz.",
+    categoria: "ebooks"
   },
    {
     titulo: "COPYS PODEROSAS",
     preco: "R$ 14,90",
     imagem: "imagens/imagens-ebook24.jpg",
     link: "https://pay.hotmart.com/C105732944E",
-    descricao: "O livro de Gustavo Ferreira ensina as estratégias psicológicas e técnicas de escrita para converter leitores em clientes."
+    descricao: "O livro de Gustavo Ferreira ensina as estratégias psicológicas e técnicas de escrita para converter leitores em clientes.",
+    categoria: "ebooks"
   },
   {
     titulo: "DINHEIRO E EMOCIONAL",
     preco: "R$ 14,90",
     imagem: "imagens/imagens-ebook25.jpg",
     link: "https://pay.hotmart.com/L105733168X",
-    descricao: "dinheiro quando se fala em prosperidade, não é uma idéia incorreta, é uma idéia incompleta."
+    descricao: "dinheiro quando se fala em prosperidade, não é uma idéia incorreta, é uma idéia incompleta.",
+    categoria: "ebooks"
   },
 ];
 
@@ -180,18 +205,39 @@ document.getElementById("totalEbooks").innerText = ebooks.length;
 
 const container = document.getElementById("ebooks");
 
-ebooks.forEach((ebook, index) => {
-  container.innerHTML += `
-    <div class="card">
-      <img src="${ebook.imagem}" onclick="abrirModal(${index})">
-      <h3>${ebook.titulo}</h3>
-      <p>${ebook.preco}</p>
-      <button onclick="window.open('${ebook.link}')">
-        Comprar agora
-      </button>
-    </div>
-  `;
-});
+function renderizarEbooks(lista) {
+
+  container.innerHTML = "";
+
+  if (lista.length === 0) {
+    container.innerHTML = `
+      <div class="sem-produtos">
+        <h2>Nenhum produto encontrado</h2>
+        <p>Produtos físicos serão adicionados em breve.</p>
+      </div>
+    `;
+    return;
+  }
+
+  lista.forEach((ebook, index) => {
+    container.innerHTML += `
+      <div class="card">
+        <img src="${ebook.imagem}" onclick="abrirModal(${index})">
+
+        <h3>${ebook.titulo}</h3>
+
+        <p>${ebook.preco}</p>
+
+        <button onclick="window.open('${ebook.link}')">
+          Comprar agora
+        </button>
+      </div>
+    `;
+  });
+
+}
+
+renderizarEbooks(ebooks);
 
 const texto = "Dreamer Store";
 let i = 0;
@@ -309,3 +355,72 @@ pesquisa.addEventListener("input", () => {
     });
 
 });
+
+const botoesCategoria = document.querySelectorAll(".categoria-btn");
+
+const filtroCategoria = document.getElementById("filtroCategoria");
+
+const opcoesEbooks = `
+  <option value="todos">Todos</option>
+  <option value="marketing">Marketing</option>
+  <option value="persuasao">Persuasão</option>
+  <option value="saude">Saúde</option>
+  <option value="relacionamento">Relacionamento</option>
+`;
+
+const opcoesFisicos = `
+  <option value="todos">Todos</option>
+  <option value="emagrecimento">Emagrecimento</option>
+  <option value="saude">Saúde</option>
+  <option value="beleza">Beleza</option>
+  <option value="gym">Gym</option>
+`;
+
+botoesCategoria.forEach(botao => {
+  botao.addEventListener("click", () => {
+    botoesCategoria.forEach(btn => btn.classList.remove("ativo"));
+    botao.classList.add("ativo");
+
+    const categoriaSelecionada = botao.dataset.categoria;
+    const campoPesquisa = document.getElementById("pesquisa");
+
+    if (categoriaSelecionada === "fisicos") {
+      filtroCategoria.innerHTML = opcoesFisicos;
+      filtroCategoria.value = "todos";
+      campoPesquisa.placeholder = "Buscar produtos...";
+    } else {
+      filtroCategoria.innerHTML = opcoesEbooks;
+      filtroCategoria.value = "todos";
+      campoPesquisa.placeholder = "Buscar ebook...";
+    }
+
+    if (categoriaSelecionada === "todos") {
+      renderizarEbooks(ebooks);
+      return;
+    }
+
+    const filtrados = ebooks.filter(item => item.categoria === categoriaSelecionada);
+    renderizarEbooks(filtrados);
+  });
+});
+
+const carrosselContainer = document.querySelector(".carrossel-container");
+const carrosselDestaque = document.querySelector("#carrosselDestaque");
+
+if (carrosselContainer && carrosselDestaque) {
+  carrosselDestaque.innerHTML += carrosselDestaque.innerHTML;
+
+  let velocidade = 0.7;
+
+  function rodarCarrossel() {
+    carrosselContainer.scrollLeft += velocidade;
+
+    if (carrosselContainer.scrollLeft >= carrosselDestaque.scrollWidth / 2) {
+      carrosselContainer.scrollLeft = 0;
+    }
+
+    requestAnimationFrame(rodarCarrossel);
+  }
+
+  rodarCarrossel();
+}
