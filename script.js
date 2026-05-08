@@ -471,6 +471,24 @@ const ebooksCompra = [
   "Como Convencer Alguém em 90 Segundos",
   "Copys Poderosas",
   "GHDROLL",
+  "LIBIDROLL",
+  "MOUNJAX",
+  "KIT SOS CRESCIMENTO CAPILAR",
+  "COLAGENO TIPO 2 PRO",
+  "CLAREADOR DE MANCHAS",
+  "RED MEN",
+  "ZENFIT CAPS",
+  "FIGNAR",
+  "NERVOCUREMAX",
+  "MONJARIM",
+  "TRANS RESVERATROL",
+  "ELEFANTOL",
+  "DERMALIFT PRO",
+  "PHYTO POWER CAPS",
+  "BIOTIN HAIR",
+  "HOT MEN CAPS",
+  "REV CURCUMA EM GOTAS",
+  "LIBD TURBO"
 ];
 
 function mostrarNotificacaoCompra() {
