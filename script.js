@@ -239,6 +239,118 @@ const ebooks = [
     descricao: "COLAGENO TIPO 2 PRO é um suplemento alimentar que auxilia no cuidado e fortalecimento das articulações.",
     categoria: "fisicos"
   },
+  {
+    titulo: "CLAREADOR DE MANCHAS",
+    preco: "R$ 137,00",
+    imagem: "imagens/fisico-clareador6.jpg",
+    link: "https://ev.braip.com/ref?pv=progvj45&af=afizj2o5vx",
+    descricao: "CLAREADOR DE MANCHAS é um produto que auxilia na remoção de manchas e melhora o aspecto da pele.",
+    categoria: "fisicos"
+  },
+  {
+    titulo: "RED MEN",
+    preco: "R$ 297,00",
+    imagem: "imagens/fisico-redmen7.jpg",
+    link: "https://ev.braip.com/ref?pv=proxxgxk&af=afi4v1jxpx",
+    descricao: "COMO DEIXAR GRANDÃO, GROSSO  E ERETO POR MUITO MAIS TEMPO.",
+    categoria: "fisicos"
+  },
+  {
+    titulo: "ZENFIT CAPS",
+    preco: "R$ 197,00",
+    imagem: "imagens/fisico-zenfit8.jpg",
+    link: "https://ev.braip.com/ref?pv=prodzxk5&af=afi07pq6e2",
+    descricao: "Auxilia no controle da fome, no equilíbrio do metabolismo e facilita o processo de EMAGRECIMENTO..",
+    categoria: "fisicos"
+  },
+  {
+    titulo: "FIGNAR",
+    preco: "R$ 297,00",
+    imagem: "imagens/fisico-fignar9.jpg",
+    link: "https://ev.braip.com/ref?pv=pro9wg1g&af=afig5g987o",
+    descricao: "Ele é capaz de auxiliar no tratamento as principais doenças que podem atingir seu fígado.",
+    categoria: "fisicos"
+  },
+  {
+    titulo: "NERVOCUREMAX",
+    preco: "R$ 177,00",
+    imagem: "imagens/fisico-nervocuremax10.jpg",
+    link: "https://ev.braip.com/ref?pv=pronve9d&af=afivpl19o3",
+    descricao: "Nervocure Max é um composto avançado que une a inteligência de neuro nutrientes e ativos anti-inflamatórios.",
+    categoria: "fisicos"
+  },
+   {
+    titulo: "MONJARIM",
+    preco: "R$ 197,00",
+    imagem: "imagens/fisico-monjarim11.jpg",
+    link: "https://ev.braip.com/ref?pv=prodq26k&af=afiyd1y0po",
+    descricao: "Monjarim é um suplemento alimentar que auxilia no fortalecimento do sistema imunológico.",
+    categoria: "fisicos"
+  },
+   {
+    titulo: "TRANS RESVERATROL",
+    preco: "R$ 197,00",
+    imagem: "imagens/fisico-transresveratrol12.jpg",
+    link: "https://pay.braip.co/ref?pl=plaz049m&ck=che75dwl&af=afio8e4nv7",
+    descricao: "Trans Resveratrol é um suplemento alimentar que auxilia no cuidado e fortalecimento das articulações.",
+    categoria: "fisicos"
+  },
+   {
+    titulo: "ELEFANTOL",
+    preco: "R$ 197,00",
+    imagem: "imagens/fisico-elefantol13.jpg",
+    link: "https://ev.braip.com/ref?pv=prow6w2w&af=afizj2o54x",
+    descricao: "Feito com ingredientes naturais, possui um efeito extremamente poderoso descoberto pelos especialistas.",
+    categoria: "fisicos"
+  },
+   {
+    titulo: "DERMALIFT PRO",
+    preco: "R$ 197,00",
+    imagem: "imagens/fisico-dermalift14.jpg",
+    link: "https://ev.braip.com/ref?pv=prok71kv&af=afi4v1jxqx",
+    descricao: "Fórmula americana premium que combina Trans-Resveratrol, Ácido Hialurônico, Colágeno Hidrolisado e Menaquinona-7 para rejuvenescer sua pele de dentro para fora .",
+    categoria: "fisicos"
+  },
+   {
+    titulo: "PHYTO POWER CAPS",
+    preco: "R$ 197,00",
+    imagem: "imagens/fisico-phytopowercaps15.jpg",
+    link: "https://ev.braip.com/ref?pv=prop2278&af=afilx3zj1q",
+    descricao: "Invista em você, na sua saúde e no seu bem estar com Phyto Power Caps!.",
+    categoria: "fisicos"
+  },
+   {
+    titulo: "BIOTIN HAIR",
+    preco: "R$ 97,90",
+    imagem: "imagens/fisico-biotinhair16.jpg",
+    link: "https://ev.braip.com/ref?pv=pro0q1qz&af=afi7g8qloe",
+    descricao: "O 1° Tratamento Capilar Antiqueda com Crescimento até 7x mais Rápido dos Fios.",
+    categoria: "fisicos"
+  },
+   {
+    titulo: "HOT MEN CAPS",
+    preco: "R$ 179,90",
+    imagem: "imagens/fisico-hotmencaps17.jpg",
+    link: "https://ev.braip.com/ref?pv=propnm7d&af=afimenxd5v",
+    descricao: "Experimente orgasmos muito mais intensos e volumosos, eleve seu prazer a um nível que você sequer sabia que era possível..",
+    categoria: "fisicos"
+  },
+   {
+    titulo: "REV CURCUMA EM GOTAS",
+    preco: "R$ 129,00",
+    imagem: "imagens/fisico-revcurcuma18.jpg",
+    link: "https://ev.braip.com/ref?pv=proe77n2&af=afi5d2qp0j",
+    descricao: "Alívio das dores juntas, articulações e do corpo todo. O Revi Cúrcuma é pra você.",
+    categoria: "fisicos"
+  },
+   {
+    titulo: "LIBD TURBO",
+    preco: "R$ 107,00",
+    imagem: "imagens/fisico-libdturbo19.jpg",
+    link: "https://ev.braip.com/ref?pv=prokqm6e&af=afi11lqy9v",
+    descricao: "O Libid Turbo Femme é um estimulante voltado para o público feminino que possui em sua composição os ingredientes altamente qualificados.",
+    categoria: "fisicos"
+  },
 ];
 
 const totalEbooks = ebooks.filter(item => item.categoria === "ebooks").length;
