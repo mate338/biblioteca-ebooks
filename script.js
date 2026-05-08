@@ -241,7 +241,11 @@ const ebooks = [
   },
 ];
 
-document.getElementById("totalEbooks").innerText = ebooks.length;
+const totalEbooks = ebooks.filter(item => item.categoria === "ebooks").length;
+const totalFisicos = ebooks.filter(item => item.categoria === "fisicos").length;
+
+document.getElementById("totalEbooks").innerText = totalEbooks;
+document.getElementById("totalFisicos").innerText = totalFisicos;
 
 const container = document.getElementById("ebooks");
 
