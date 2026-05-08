@@ -199,6 +199,46 @@ const ebooks = [
     descricao: "dinheiro quando se fala em prosperidade, não é uma idéia incorreta, é uma idéia incompleta.",
     categoria: "ebooks"
   },
+  {
+    titulo: "GHDROLL",
+    preco: "R$ 147,90",
+    imagem: "imagens/fisico-ghdroll1.jpg",
+    link: "https://ev.braip.com/ref?pv=prozx3y6&af=afilx303q6",
+    descricao: "GHDROL ELEVA O CORPO A MÁXIMA PERFORMANCE FÍSICA, ÍNTIMA E HIPERTROFIA MUSCULAR.",
+    categoria: "fisicos"
+  },
+  {
+    titulo: "LIBIDROLL",
+    preco: "R$ 99,70",
+    imagem: "imagens/fisico-libidroll2.jpg",
+    link: "https://ev.braip.com/ref?pv=pro4z2z1&af=afidn9znqp",
+    descricao: "LIBIDROLL é um suplemento natural que potencializa o desempenho sexual e a energia masculina.",
+    categoria: "fisicos"
+  },
+  {
+    titulo: "MOUNJAX",
+    preco: "R$ 147,90",
+    imagem: "imagens/fisico-mounjax3.jpg",
+    link: "https://ev.braip.com/ref?pv=pro8n4yw&af=afi7g8v8zx",
+    descricao: "Mounjax é um suplemento alimentar desenvolvido para potencializar o emagrecimento, oferecendo resultados comprovados e satisfação às clientes..",
+    categoria: "fisicos"
+  },
+  {
+    titulo: "KIT SOS CRESCIMENTO CAPILAR",
+    preco: "R$ 179,00",
+    imagem: "imagens/fisico-kitsos4.jpg",
+    link: "https://ev.braip.com/ref?pv=prov6q42&af=afixj7xy12",
+    descricao: "KIT SOS CRESCIMENTO CAPILAR é um conjunto de produtos para promover o crescimento e a saúde dos cabelos.",
+    categoria: "fisicos"
+  },
+  {
+    titulo: "COLAGENO TIPO 2 PRO",
+    preco: "R$ 119,00",
+    imagem: "imagens/fisico-colageno5.jpg",
+    link: "https://ev.braip.com/ref?pv=pron5vj9&af=afidn3px1l",
+    descricao: "COLAGENO TIPO 2 PRO é um suplemento alimentar que auxilia no cuidado e fortalecimento das articulações.",
+    categoria: "fisicos"
+  },
 ];
 
 document.getElementById("totalEbooks").innerText = ebooks.length;
@@ -222,7 +262,7 @@ function renderizarEbooks(lista) {
   lista.forEach((ebook, index) => {
     container.innerHTML += `
       <div class="card">
-        <img src="${ebook.imagem}" onclick="abrirModal(${index})">
+        <img src="${ebook.imagem}" onclick='abrirModal(${JSON.stringify(ebook)})'
 
         <h3>${ebook.titulo}</h3>
 
@@ -264,13 +304,16 @@ function apagar() {
 
 escrever();
 
-function abrirModal(index) {
-  const ebook = ebooks[index];
+function abrirModal(ebook) {
 
   document.getElementById("modalImagem").src = ebook.imagem;
+
   document.getElementById("modalTitulo").innerText = ebook.titulo;
+
   document.getElementById("modalDescricao").innerText = ebook.descricao;
+
   document.getElementById("modalPreco").innerText = ebook.preco;
+
   document.getElementById("modalLink").href = ebook.link;
 
   document.getElementById("modal").style.display = "flex";
@@ -311,7 +354,7 @@ const ebooksCompra = [
   "A Cabeça de Steve Jobs",
   "Como Convencer Alguém em 90 Segundos",
   "Copys Poderosas",
-  "Dinheiro e Emocional"
+  "GHDROLL",
 ];
 
 function mostrarNotificacaoCompra() {
