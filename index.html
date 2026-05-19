@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Dreamer Store</title>
+
   <link rel="stylesheet" href="style.css">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#ff00cc">
@@ -13,138 +16,81 @@
   <!-- 🔥 FUNDO ANIMADO -->
   <div class="energia-bg"></div>
 
+  <!-- 🔔 NOTIFICAÇÃO DE COMPRA -->
   <div id="notificacaoCompra" class="notificacao-compra"></div>
 
-
   <!-- HEADER -->
-<header>
+  <header>
 
-  <h1 id="titulo">
-    <span class="icone">📚</span>
-    <span id="texto-titulo"></span>
-  </h1>
+    <h1 id="titulo">
+      <span class="icone">📚</span>
+      <span id="texto-titulo"></span>
+    </h1>
 
-  <div class="categorias">
-  <button class="categoria-btn ativo" data-categoria="todos">Todos</button>
-  <button class="categoria-btn" data-categoria="ebooks">📚 Ebooks</button>
-  <button class="categoria-btn" data-categoria="fisicos">📦 Produtos Físicos</button>
-  <button class="categoria-btn" data-categoria="servicos">
-🛠️ Serviços
-</button>
-</div>
-    
+    <!-- CATEGORIAS PRINCIPAIS -->
+    <div class="categorias">
+      <button class="categoria-btn ativo" data-categoria="todos">Todos</button>
+      <button class="categoria-btn" data-categoria="ebooks">📚 Ebooks</button>
+      <button class="categoria-btn" data-categoria="fisicos">📦 Produtos Físicos</button>
+      <button class="categoria-btn" data-categoria="servicos">🛠️ Serviços</button>
+    </div>
+
+    <!-- CONTADORES -->
     <div class="contadores-produtos">
-  <div class="contador-item">
-    📚 <span id="totalEbooks">0</span> ebooks
-  </div>
 
-  <div class="contador-item">
-    📦 <span id="totalFisicos">0</span> físicos
-  </div>
-
-  <div class="contador-item">
-🛠️ <span id="totalServicos">0</span> serviços
-</div>
-
-</header>
-
-  <!-- GRID DE EBOOKS -->
-  <section class="grid" id="ebooks"></section>
-
-  <section class="carrossel-section">
-
-  <h2 class="titulo-carrossel">
-    🔥 Mais procurados da semana
-  </h2>
-
-  <div class="carrossel-container">
-
-    <div class="carrossel" id="carrosselDestaque">
-
-      <div class="card-destaque">
-        <img src="imagens/imagens-ebook3.jpg">
-        <h3>TECNICAS PROIBIDAS DE PERSUASÃO</h3>
+      <div class="contador-item">
+        📚 <span id="totalEbooks">0</span> ebooks
       </div>
 
-      <div class="card-destaque">
-        <img src="imagens/imagens-ebook7.jpg">
-        <h3>DOMINANDO A IA</h3>
+      <div class="contador-item">
+        📦 <span id="totalFisicos">0</span> físicos
       </div>
 
-      <div class="card-destaque">
-        <img src="imagens/imagens-ebook10.jpg">
-        <h3>DETOX DOS FAMOSOS</h3>
-      </div>
-
-      <div class="card-destaque">
-        <img src="imagens/fisico-monjarim11.jpg">
-        <h3>MONJARIM</h3>
-      </div>
-
-      <div class="card-destaque">
-        <img src="imagens/fisico-colageno5.jpg">
-        <h3>COLAGENO TIPO 2 PRO</h3>
-      </div>
-
-      <div class="card-destaque">
-        <img src="imagens/fisico-biotinhair16.jpg">
-        <h3>BIOTIN HAIR</h3>
-      </div>
-
-      <div class="card-destaque">
-        <img src="imagens/imagens-ebook21.jpg">
-        <h3>A REGRA E NÃO TER REGRAS</h3>
-      </div>
-
-      <div class="card-destaque">
-        <img src="imagens/fisico-redmen7.jpg">
-        <h3>RED MEN</h3>
-      </div>
-
-      <div class="card-destaque">
-        <img src="imagens/imagens-ebook22.jpg">
-        <h3>A CABEÇA DE STEVE JOBS</h3>
-      </div>
-
-      <div class="card-destaque">
-        <img src="imagens/fisico-elefantol13.jpg">
-        <h3>ELEFANTOL</h3>
-      </div>
-
-      <div class="card-destaque">
-        <img src="imagens/imagens-ebook24.jpg">
-        <h3>COPYS PODEROSAS</h3>
-      </div>
-
-      <div class="card-destaque">
-        <img src="imagens/fisico-libidroll2.jpg">
-        <h3>LIBIDROLL</h3>
-      </div>
-
-      <div class="card-destaque">
-        <img src="imagens/fisico-libdturbo19.jpg">
-        <h3>LIBID TURBO</h3>
+      <div class="contador-item">
+        🛠️ <span id="totalServicos">0</span> serviços
       </div>
 
     </div>
 
+  </header>
+
+  <!-- GRID DE PRODUTOS -->
+  <section class="grid" id="ebooks"></section>
+
+  <!-- MODAL DE PREVIEW -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+
+      <span id="fecharModal" class="fechar">&times;</span>
+
+      <button id="btnCompartilharModal" class="btn-compartilhar-modal">
+        🔗 Compartilhar
+      </button>
+
+      <img id="modalImagem" src="" alt="Imagem do produto">
+
+      <h2 id="modalTitulo"></h2>
+
+      <p id="modalDescricao"></p>
+
+      <strong id="modalPreco"></strong>
+
+      <a id="modalLink" href="#" target="_blank">
+        Comprar agora
+      </a>
+
+    </div>
   </div>
 
-</section>
-  
-  <div id="modal" class="modal">
-  <div class="modal-content">
-    <span id="fecharModal" class="fechar">&times;</span>
-    <button id="btnCompartilharModal" class="btn-compartilhar-modal">
-  🔗 Compartilhar
-</button>
-    <img id="modalImagem" src="" alt="">
-    <h2 id="modalTitulo"></h2>
-    <p id="modalDescricao"></p>
-    <strong id="modalPreco"></strong>
-    <a id="modalLink" href="#" target="_blank">Comprar agora</a>
-  </div>
-</div>
+  <!-- 💰 PARCERIA / WHATSAPP -->
+  <footer class="footer-parceria">
+    <h2>Quer divulgar seu ebook, produto ou serviço aqui?</h2>
+    <p>Entre em contato para parcerias e publicação na Dreamer Store.</p>
+
+    <a href="https://wa.me/5591992682656" target="_blank" class="btn-whatsapp">
+      Falar no WhatsApp
+    </a>
+  </footer>
 
   <script src="script.js"></script>
 </body>
