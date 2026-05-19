@@ -351,6 +351,14 @@ const ebooks = [
     descricao: "O Libid Turbo Femme é um estimulante voltado para o público feminino que possui em sua composição os ingredientes altamente qualificados.",
     categoria: "fisicos"
   },
+  {
+    titulo: "Criação de Landing Page",
+    preco: "R$ 197,00",
+    imagem: "imagens/servico-site.jpg",
+    link: "https://wa.me/5591993303430",
+    descricao: "Criação de landing page profissional para negócios, produtos e serviços.",
+    categoria: "servicos"
+},
 ];
 
 const totalEbooks = ebooks.filter(item => item.categoria === "ebooks").length;
@@ -358,6 +366,8 @@ const totalFisicos = ebooks.filter(item => item.categoria === "fisicos").length;
 
 document.getElementById("totalEbooks").innerText = totalEbooks;
 document.getElementById("totalFisicos").innerText = totalFisicos;
+document.getElementById("totalServicos").innerText =
+  ebooks.filter(item => item.categoria === "servicos").length;
 
 const container = document.getElementById("ebooks");
 
@@ -434,9 +444,12 @@ function abrirModal(ebook) {
 
   document.getElementById("btnCompartilharModal").onclick = function () {
 
-    const chamada = ebook.categoria === "fisicos"
-  ? "Confira este item na Dreamer Store"
-  : "Confira este ebook na Dreamer Store";
+    const chamada =
+  ebook.categoria === "fisicos"
+    ? "Confira este item na Dreamer Store"
+    : ebook.categoria === "servicos"
+    ? "Confira este serviço na Dreamer Store"
+    : "Confira este ebook na Dreamer Store";
 
 const texto = `${chamada}: ${ebook.titulo} - ${ebook.preco}`;
 
