@@ -536,3 +536,39 @@ header {
   margin-top: 12px;
   font-size: 18px;
 }
+
+.btn-compartilhar {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 0, 204, 0.35);
+  color: white;
+  margin-top: 8px;
+  font-size: 12px;
+  padding: 7px;
+  box-shadow: none;
+}
+
+.btn-compartilhar:hover {
+  background: rgba(255, 0, 204, 0.18);
+  transform: scale(1.03);
+}
+
+.btn-compartilhar-modal {
+  float: right;
+  clear: right;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 0, 204, 0.35);
+  color: white;
+  padding: 7px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  width: auto;
+}
+
+.btn-compartilhar-modal:hover {
+  background: rgba(255, 0, 204, 0.18);
+  transform: scale(1.03);
+}

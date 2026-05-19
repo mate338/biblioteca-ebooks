@@ -432,6 +432,27 @@ function abrirModal(ebook) {
 
   document.getElementById("modalLink").href = ebook.link;
 
+  document.getElementById("btnCompartilharModal").onclick = function () {
+
+    const chamada = ebook.categoria === "fisicos"
+  ? "Confira este item na Dreamer Store"
+  : "Confira este ebook na Dreamer Store";
+
+const texto = `${chamada}: ${ebook.titulo} - ${ebook.preco}`;
+
+   if (navigator.share) {
+    navigator.share({
+      title: ebook.titulo,
+      text: texto,
+      url: window.location.href
+    });
+  } else {
+        navigator.clipboard.writeText(`${texto}\n${window.location.href}`);
+        alert("Link copiado!");
+    }
+
+};
+
   document.getElementById("modal").style.display = "flex";
 }
 
@@ -600,4 +621,23 @@ if (carrosselContainer && carrosselDestaque) {
   }
 
   rodarCarrossel();
+}
+
+function compartilharProduto(index) {
+  const ebook = ebooks[index];
+
+  const texto = `${ebook.titulo} - ${ebook.preco}`;
+  const url = window.location.href;
+
+  if (navigator.share) {
+    navigator.share({
+      title: ebook.titulo,
+      text: texto,
+      url: url
+    });
+  } else {
+    const mensagem = `${texto}\n${url}`;
+    navigator.clipboard.writeText(mensagem);
+    alert("Link copiado para compartilhar!");
+  }
 }
