@@ -352,13 +352,21 @@ const ebooks = [
     categoria: "fisicos"
   },
   {
-    titulo: "Criação de Landing Page",
+    titulo: "CRIAÇÃO DE LANDING PAGES",
     preco: "R$ 197,00",
     imagem: "imagens/servico-site.jpg",
     link: "https://wa.me/5591993303430",
     descricao: "Criação de landing page profissional para negócios, produtos e serviços.",
     categoria: "servicos"
 },
+{
+    titulo: "ZEUS TV",
+    preco: "R$ 1,00",
+    imagem: "imagens/servico-tv01.jpg",
+    link: "https://wa.me/5591993303430",
+    descricao: "O melhor do entretenimento Voçê encontra aqui.",
+    categoria: "servicos"
+}
 ];
 
 const totalEbooks = ebooks.filter(item => item.categoria === "ebooks").length;
