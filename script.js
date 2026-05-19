@@ -364,7 +364,7 @@ const ebooks = [
     preco: "R$ 1,00",
     imagem: "imagens/servico-tv01.jpg",
     link: "https://wa.me/5591993303430",
-    descricao: "O melhor do entretenimento Voçê encontra aqui.",
+    descricao: "O melhor do entretenimento Voçê encontra aqui Canais filmes e Séries para maratonar a hora que quiser e melhor por menos de 1$ por Dia.",
     categoria: "servicos"
 }
 ];
