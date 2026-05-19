@@ -38,15 +38,13 @@ body::before {
   animation: energiaMove 4s ease-in-out infinite alternate;
 }
 
-@keyframes energiaMove {
+@keyframes moverCarrossel {
   from {
-    transform: translate(-35px, 0px) scale(1);
-    opacity: 0.45;
+    transform: translateX(0);
   }
 
   to {
-    transform: translate(35px, -25px) scale(1.15);
-    opacity: 0.95;
+    transform: translateX(-50%);
   }
 }
 
@@ -486,19 +484,42 @@ header {
 }
 
 .carrossel-container {
-  overflow-x: hidden;
-  scroll-behavior: auto;
-  padding-bottom: 15px;
+  width: 100%;
+  overflow: hidden;
+  padding: 25px 0;
 }
 
-.carrossel-container::-webkit-scrollbar {
+.carrossel {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  padding: 10px 20px;
+}
+
+.carrossel-card {
+  min-width: 170px;
+  max-width: 170px;
+  height: 240px;
+  border-radius: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.carrossel-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carrossel::-webkit-scrollbar {
   display: none;
 }
 
 .carrossel {
   display: flex;
-  gap: 20px;
+  gap: 18px;
   width: max-content;
+  animation: moverCarrossel 25s linear infinite;
 }
 
 .card-destaque {

@@ -555,29 +555,10 @@ setInterval(mostrarNotificacaoCompra, 15000);
 
 const pesquisa = document.getElementById("pesquisa");
 
-pesquisa.addEventListener("input", () => {
-
-    const valor = pesquisa.value.toLowerCase();
-
-    const cards = document.querySelectorAll(".card");
-
-    cards.forEach(card => {
-
-        const titulo = card.querySelector("h3").innerText.toLowerCase();
-
-        if (titulo.includes(valor)) {
-            card.style.display = "block";
-        } else {
-            card.style.display = "none";
-        }
-
-    });
-
-});
 
 const botoesCategoria = document.querySelectorAll(".categoria-btn");
 
-const filtroCategoria = document.getElementById("filtroCategoria");
+const filtroCategoria = null;
 
 const opcoesEbooks = `
   <option value="todos">Todos</option>
@@ -602,16 +583,6 @@ botoesCategoria.forEach(botao => {
 
     const categoriaSelecionada = botao.dataset.categoria;
     const campoPesquisa = document.getElementById("pesquisa");
-
-    if (categoriaSelecionada === "fisicos") {
-      filtroCategoria.innerHTML = opcoesFisicos;
-      filtroCategoria.value = "todos";
-      campoPesquisa.placeholder = "Buscar produtos...";
-    } else {
-      filtroCategoria.innerHTML = opcoesEbooks;
-      filtroCategoria.value = "todos";
-      campoPesquisa.placeholder = "Buscar ebook...";
-    }
 
     if (categoriaSelecionada === "todos") {
       renderizarEbooks(ebooks);
