@@ -487,7 +487,6 @@ const ebooksCompra = [
   "Fórmula da Pegação",
   "Dominando a Inteligência Artificial",
   "O Segredo para Dentes Mais Brancos",
-  "Pack 500 Ebooks",
   "O Mantra da Perda de Peso",
   "Detox dos Famosos",
   "Tráfego Online",
