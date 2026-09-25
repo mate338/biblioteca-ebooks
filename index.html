@@ -9,9 +9,54 @@
   <link rel="stylesheet" href="style.css">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#ff00cc">
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {
+      if(f.fbq)return;
+      n=f.fbq=function(){
+        n.callMethod ?
+        n.callMethod.apply(n,arguments) :
+        n.queue.push(arguments)
+      };
+
+      if(!f._fbq)f._fbq=n;
+
+      n.push=n;
+      n.loaded=!0;
+      n.version='2.0';
+      n.queue=[];
+
+      t=b.createElement(e);
+      t.async=!0;
+      t.src=v;
+
+      s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s);
+
+    }(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '4388246058103303');
+    fbq('track', 'PageView');
+  </script>
+  <!-- End Meta Pixel Code -->
+
 </head>
 
 <body>
+
+  <!-- Meta Pixel NoScript -->
+  <noscript>
+    <img
+      height="1"
+      width="1"
+      style="display:none"
+      src="https://www.facebook.com/tr?id=4388246058103303&ev=PageView&noscript=1"
+      alt=""
+    >
+  </noscript>
 
   <!-- 🔥 FUNDO ANIMADO -->
   <div class="energia-bg"></div>
@@ -57,17 +102,17 @@
   <!-- GRID DE PRODUTOS -->
   <section class="grid" id="ebooks"></section>
 
-
   <h2 class="titulo-carrossel">
-  🔥 MAIS PROCURADOS DA SEMANA 🔥
-</h2>
+    🔥 MAIS PROCURADOS DA SEMANA 🔥
+  </h2>
 
   <div class="carrossel-container">
     <div class="carrossel" id="carrosselDestaque"></div>
-</div>
+  </div>
 
   <!-- MODAL DE PREVIEW -->
   <div id="modal" class="modal">
+
     <div class="modal-content">
 
       <span id="fecharModal" class="fechar">&times;</span>
@@ -89,90 +134,92 @@
       </a>
 
     </div>
+
   </div>
 
   <div class="carrossel-container">
 
-  <div class="carrossel" id="carrosselDestaque">
+    <div class="carrossel" id="carrosselDestaque">
 
-    <div class="carrossel-card">
-      <img src="imagens/fisico-elefantol13.jpg">
-    </div>
+      <div class="carrossel-card">
+        <img src="imagens/fisico-elefantol13.jpg" alt="">
+      </div>
 
-    <div class="carrossel-card">
-      <img src="imagens/fisico-clareador6.jpg">
-    </div>
+      <div class="carrossel-card">
+        <img src="imagens/fisico-clareador6.jpg" alt="">
+      </div>
 
-    <div class="carrossel-card">
-      <img src="imagens/fisico-mounjax3.jpg">
-    </div>
+      <div class="carrossel-card">
+        <img src="imagens/fisico-mounjax3.jpg" alt="">
+      </div>
 
-    <div class="carrossel-card">
-      <img src="imagens/fisico-colageno5.jpg">
-    </div>
+      <div class="carrossel-card">
+        <img src="imagens/fisico-colageno5.jpg" alt="">
+      </div>
 
-    <div class="carrossel-card">
-      <img src="imagens/servico-tv01.jpg">
-    </div>
+      <div class="carrossel-card">
+        <img src="imagens/servico-tv01.jpg" alt="">
+      </div>
 
-    <div class="carrossel-card">
-      <img src="imagens/imagens-ebook22.jpg">
-    </div>
+      <div class="carrossel-card">
+        <img src="imagens/imagens-ebook22.jpg" alt="">
+      </div>
 
-    <div class="carrossel-card">
-      <img src="imagens/imagens-ebook3.jpg">
-    </div>
+      <div class="carrossel-card">
+        <img src="imagens/imagens-ebook3.jpg" alt="">
+      </div>
 
-    <div class="carrossel-card">
-      <img src="imagens/imagens-ebook13.jpg">
-    </div>
+      <div class="carrossel-card">
+        <img src="imagens/imagens-ebook13.jpg" alt="">
+      </div>
 
-    <div class="carrossel-card">
-      <img src="imagens/imagens-ebook8.jpg">
-    </div>
+      <div class="carrossel-card">
+        <img src="imagens/imagens-ebook8.jpg" alt="">
+      </div>
 
-    <!-- DUPLICADOS -->
+      <!-- DUPLICADOS -->
 
-    <div class="carrossel-card">
-      <img src="imagens/fisico-elefantol13.jpg">
-    </div>
+      <div class="carrossel-card">
+        <img src="imagens/fisico-elefantol13.jpg" alt="">
+      </div>
 
-    <div class="carrossel-card">
-      <img src="imagens/fisico-clareador6.jpg">
-    </div>
+      <div class="carrossel-card">
+        <img src="imagens/fisico-clareador6.jpg" alt="">
+      </div>
 
-    <div class="carrossel-card">
-      <img src="imagens/fisico-mounjax3.jpg">
-    </div>
+      <div class="carrossel-card">
+        <img src="imagens/fisico-mounjax3.jpg" alt="">
+      </div>
 
-     <div class="carrossel-card">
-      <img src="imagens/fisico-colageno5.jpg">
-    </div>
+      <div class="carrossel-card">
+        <img src="imagens/fisico-colageno5.jpg" alt="">
+      </div>
 
-     <div class="carrossel-card">
-      <img src="imagens/servico-tv01.jpg">
-    </div>
+      <div class="carrossel-card">
+        <img src="imagens/servico-tv01.jpg" alt="">
+      </div>
 
-     <div class="carrossel-card">
-      <img src="imagens/imagens-ebook22.jpg">
-    </div>
+      <div class="carrossel-card">
+        <img src="imagens/imagens-ebook22.jpg" alt="">
+      </div>
 
-     <div class="carrossel-card">
-      <img src="imagens/imagens-ebook3.jpg">
-    </div>
+      <div class="carrossel-card">
+        <img src="imagens/imagens-ebook3.jpg" alt="">
+      </div>
 
-     <div class="carrossel-card">
-      <img src="imagens/imagens-ebook13.jpg">
-    </div>
+      <div class="carrossel-card">
+        <img src="imagens/imagens-ebook13.jpg" alt="">
+      </div>
 
-     <div class="carrossel-card">
-      <img src="imagens/imagens-ebook8.jpg">
+      <div class="carrossel-card">
+        <img src="imagens/imagens-ebook8.jpg" alt="">
+      </div>
+
     </div>
 
   </div>
 
-</div>
-
   <script src="script.js"></script>
+
 </body>
 </html>
