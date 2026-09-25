@@ -56,14 +56,6 @@ const ebooks = [
     categoria: "ebooks"
   },
    {
-    titulo: "PACK 500 EBOOKS",
-    preco: "R$ 47,00",
-    imagem: "imagens/imagens-ebook1.jpg",
-    link: "https://pay.cakto.com.br/346fjzg_865057",
-    descricao: "Uma vasta coleçao de ebooks para uso ou revendas.",
-    categoria: "ebooks"
-  },
-   {
     titulo: "O MANTRA DA PERDA DE PESO",
     preco: "R$ 14,90",
     imagem: "imagens/imagens-ebook9.jpg",
